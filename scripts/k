@@ -1,0 +1,12 @@
+
+import getpass
+from slurm_cli.main import kill_running_job_by_user 
+
+if __name__ == "__main__":
+
+    # Get username
+    whoiam = getpass.getuser()
+
+    # Kill jobs
+    kill_running_job_by_user(whoiam)
+    

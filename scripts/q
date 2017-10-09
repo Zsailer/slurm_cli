@@ -1,0 +1,10 @@
+import getpass
+from slurm_cli.main import get_running_jobs_by_user
+
+if __name__ == "__main__":
+
+    # Get user
+    whoiam = getpass.getuser()
+
+    # List jobs
+    get_running_jobs_by_user(whoiam)
