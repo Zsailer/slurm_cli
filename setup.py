@@ -13,7 +13,7 @@ from setuptools import find_packages, setup, Command
 
 # Package meta-data.
 NAME = 'slurm_cli'
-DESCRIPTION = 'Aliases for SLURM systems.'
+DESCRIPTION = 'Simpler command line interface for SLURM systems.'
 URL = 'https://github.com/Zsailer/slurm_cli'
 EMAIL = 'zachsailer@gmail.com'
 AUTHOR = 'Zach Sailer'
