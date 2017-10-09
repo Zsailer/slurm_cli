@@ -2,8 +2,17 @@
 
 A list of command-line shortcuts for a SLURM HPC system.
 
-## commands
+## Install
 
+Make sure python 3.5+ is installed. Then clone and install this from source:
+
+```
+git clone https://github.com/Zsailer/slurm_cli
+cd clurm_cli
+pip install -e .
+```
+
+## Basic Usage
 
 List all jobs that I am currently running. This is the same as `squeue -u <user>` 
 
